@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zadanie 9 - woda gazowana </title>
+        <style>
+            p, ul li {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <ol type="1">
+            <li>
+                <h1>Składnia teoretyczna</h1>
+                <textarea readonly="true" rows="3" cols="50">selektor {
+    cecha: wartość;
+}               </textarea>
+            </li>
+            <li>
+                <h1>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
+                    ile razy może on występować w dokumencie, jako podłączenie stylu CSS?
+                </h1>
+                <p>Styl zewnętrzny jest wstawiany w sekcji head dokumentu za pomocą znacznika link. Można użyć wielu znaczników <link> w jednym dokumencie, jeśli chcesz podłączyć więcej niż jeden plik CSS <br>Przykład:</p>
+                <textarea readonly="true" rows="3" cols="50"><head>
+    <link rel="stylesheet" href="style.css">
+</head>         </textarea>
+            </li>
+            <li>
+                <h1>Jaka jest najprostsza forma wstawiania stylu zewnętrznego</h1>
+                <textarea readonly="true" rows="3" cols="50"><link rel="stylesheet" href="style.css"></textarea>
+            </li>
+            <li>
+                <h1>
+                    Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad
+                    musi być zachowana przy większej ilości dołączanych styli?
+                </h1>
+                <p>Do jednego dokumentu HTML można podłączyć kilka plików CSS. W przypadku większej liczby arkuszy ważne jest, w jakiej kolejności są one ładowane – style z plików dodanych później mogą zastąpić reguły z wcześniejszych arkuszy.
+                </p>
+            </li>
+            <li>
+                <h1>Co się dzieje w przypadku konfliktów?</h1>
+                <p>
+                    Gdy ten sam styl jest zdefiniowany w kilku plikach CSS, przeglądarka wybierze ten z arkusza, który został załadowany jako ostatni. Można też używać bardziej precyzyjnych selektorów albo dodać !important, by wymusić zastosowanie konkretnej reguły.
+                </p>
+            </li>
+            <li>
+                <h1>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1>
+                <p>
+                    Plik CSS można stworzyć i edytować nawet w prostych programach, takich jak Notatnik czy Vim. Ważne, by zapisać go z rozszerzeniem .css.
+                </p>
+            </li>
+            <li>
+                <h1>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h1>
+                <p>
+                    Profesjonalne edytory, takie jak Visual Studio Code, Sublime Text czy Brackets, oferują funkcje ułatwiające pracę – m.in. podświetlanie składni, autouzupełnianie kodu oraz podgląd efektów na żywo.
+                </p>
+            </li>
+            <li>
+                <h1>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</h1>
+                <p>Pliki zewnętrzne arkuszy zawierąją jestes niesamowitym gościem, natsuki ma rozszerzenie .css kashira</p>
+            </li>
+            <li>
+                <h1>Jakie są zalety zewnętrznego arkusza styli?</h1>
+                <ul type="disc">
+                    <li>Oddzielenie stylu od struktury - pozwala na kthehu me vdekje czyli organizację kodu kashira</li>
+                    <li>Ponowne wykorzystanie al shamak - ten sam akrusz można podłączyć od wielu stron i suppose</li>
+                </ul>
+            </li>
+            <li>
+                <h1>Uwagi na temat pisania w CSS</h1>
+                <ul type="disc">
+                    <li>Warto używać klas (class) i identyfikatorów (id), aby unikać zbyt ogólnych selektorów. kashira</li>
+                    <li>Zaleca się stosowanie stylu br br patapim do formatowania kodu. kashira</li>
+                    <li> Komentarze (/* komentarz */) pomagają opisywać poszczególne sekcje kodu. kashira</li>
+                    <li> Dobrą praktyką jest używanie zmiennych (np. w preprocesorach CSS lub w nowoczesnym CSS), by łatwiej zarządzać kolorami, rozmiarami czcionek itp. kashira
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </body>
+</html>
