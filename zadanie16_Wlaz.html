@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zadanie16 Wlazło</title>
+        <style>
+            ol li p, ol li ol {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <font size="32px">Selektor DIV oraz SPAN</font>
+        <ol type="1">
+            <li>
+                <h1>Opis znacznika <u>DIV</u></h1>
+                <h3>Składnia</h3>
+                <textarea rows="2" cols="60"><div style="cecha: wartość; cecha2: wartość2...">...</div></textarea>
+                <h3>Opis</h3>
+                <ol type="1">
+                    <li>
+                        <p>
+                           <b> Zastosowanie i element: </b> Jest to element blokowy, znacznik div jest używany do grupowania innych elementów w celu tworzenia sekcji w dokumencie HTML. Pomaga w organizacji kodu i umożliwia stosowanie stylów CSS lub manipulację przy pomocy JavaScriptu. Często wykorzystywany w układach stron (layout), gdzie każda sekcja strony jest reprezentowana przez oddzielny blok.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b> opis teorytyczny: </b> div jest używane głównie do tworzenia bloków, które mogą zawierać inne elementy. Jest to jeden z najbardziej podstawowych znaczników w HTML, gdyż nie dodaje żadnego stylu do dokumentu samodzielnie. Dzięki niemu możemy łatwo strukturalizować strony internetowe.
+                        </p>
+                    </li>
+                </ol>
+                <h3>Atrybuty</h3>
+                <ol type="1">
+                    <li>
+                        <p>
+                            <b>ALIGN</b>="ustawienie"<br>
+                            Poziome ustawienie (wyrównanie) z uwzględnieniem otoczenia (zdeprecjonowane):
+                            <ol type="a">
+                                <li>justify - wyrównanie do obu marginesów jednocześnie</li>
+                                <li>center - wyśrodkowanie</li>
+                                <li>right - wyrównanie do prawej</li>
+                                <li>left - wyrównanie do lewej</li>
+                            </ol>
+                        </p>
+                    </li>
+                    <li>
+                        <p><b>ID</b>=nazwa</p>
+                    </li>
+                    <li>
+                        <p><b>CLASS</b>=klasa</p>
+                    </li>
+                    <li>
+                        <p><b>DIR</b>=kierunek</p>
+                    </li>
+                    <li>
+                        <p><b>LANG</b>=język kodowania</p>
+                    </li>
+                    <li>
+                        <p><b>TITLE</b>=tekst</p>
+                    </li>
+                    <li>
+                        <p><b>STYLE</b>=styl</p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h1>Opis znacznika SPAN</h1>
+                <h3>Składnia</h3>
+                <textarea rows="2" cols="60"><span style="cecha1: wartość1; cecha2: wartość2...">...</span></textarea>
+                <h3>Opis</h3>
+                <ol type="1">
+                    <li>
+                        <p>
+                            <b> zastosowanie </b> span służy do grupowania małych fragmentów treści w obrębie innych elementów, bez wpływania na układ strony. Używa się go do stylowania części tekstu, na przykład zmiany koloru, czcionki, dodawania klas CSS, czy interakcji z JavaScript.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b> opis terorytyczny </b> span jest elementem, który nie przerywa układu strony (nie zaczyna nowej linii) i pozwala na stosowanie stylów CSS lub manipulowanie zawartością tekstu bez zmiany struktury strony.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Wewnątrz DIV można oczywiście wpisać również SPAN.</p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h1>Różnica między znacznikami DIV i SPAN</h1>
+                <p>
+                    div to element blokowy, który zajmuje całą szerokość dostępnej przestrzeni i zawsze zaczyna się od nowej linii.
+                     Używa się go do grupowania większych części strony.
+                      Natomiast span jest elementem liniowym,
+                       który działa w ramach jednej linii tekstu i służy do wyróżniania mniejszych fragmentów lub stosowania stylów wewnątrz tekstu
+                </p>
+                <p>
+                    <b><u>Span'em</u></b> wyodrębniamy <b>elementy liniowe</b> (najczęściej fragmenty tekstu) a <b><u>divem</u> blokowe</b> 
+                    (blokowe elementy, większe fragmenty struktury składające się na układ strony)
+                </p>
+                <p>Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii.</p>
+            </li>
+            <li>
+                <h1>Opisz oraz wymień elementy/tagi</h1>
+                <ol type="1">
+                    <li>
+                        <b>Liniowe</b>
+                        <p>
+                            Elementy liniowe
+                            nie spowodują przejścia do nowej linii, 
+                            będą wyświetlać się obok siebie, w jednej linii. 
+                            Domyślnie, elementom liniowym przeglądarka ustawia 
+                            właściwość "display" na "inline".
+                        </p>
+                    </li>
+                    <li>
+                        <b>Blokowe</b>
+                        <p>
+                            Elementy blokowe
+                            z kolei będą zachowywać się jak pudełka, 
+                            które ustawiasz jeden pod drugim, a więc nigdy nie wyświetlą się obok siebie. 
+                            Domyślnie, elementom blokowym przeglądarka ustawia właściwość "display" na "block"
+                        </p>
+                    </li>
+                    <li>
+                        <b>Blokowo-liniowe</b>
+                        <p>
+                            Elementy liniowo-blokowe
+                            z kolei będą zachowywać się jak liniowe, jeśli chodzi o 
+                            położenie (a więc wyświetlać będą się obok siebie), natomiast różnią się od nich tym, że 
+                            możesz nadać im różne wielkości. Ma to sens, np. textarea wyświetla się jako duży 
+                            prostokąt i zdecydowanie "wychodzi" poza pojedynczą linijkę tekstu. Domyślnie, elementom 
+                            liniowo blokowym przeglądarka ustawia właściwość "display"  na "inline-block". 
+                        </p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>
+<!--Nikodem Wlazło -->
