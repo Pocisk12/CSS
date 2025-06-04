@@ -1,0 +1,9 @@
+h3 {
+    font-size: 16px;
+    background-color: rgb(30, 60, 128);
+    width: 200pt;
+    height: 4cm;
+    margin-left: 100px;
+	border-color: solid silver;
+    border: dotted;
+}
